@@ -9,7 +9,7 @@ public class Ticket implements Runnable {
     private int num;
     private int init = 1;
     private String lock;
-
+//这是主干修改
     public Ticket(int num,String lock){
         this.num = num;
         this.lock = lock;
