@@ -4,6 +4,8 @@
  */
 public class Ticket implements Runnable {
 
+
+    //这是分支修改
     private int num;
     private int init = 1;
     private String lock;
